@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Techno | Architecture & Interior Design</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <a href="/" class="navbar__logo">
+          <img src="./img/logo2.png" alt="" />
+        </a>
+
+        <ul class="navbar__list">
+          <li class="navbar__listItem">
+            <a href="#" class="navbar__link">Home</a>
+          </li>
+          <li class="navbar__listItem">
+            <a href="#about" class="navbar__link">About Us</a>
+          </li>
+          <li class="navbar__listItem">
+            <a href="#services" class="navbar__link">Services</a>
+          </li>
+          <li class="navbar__listItem">
+            <a href="#blog" class="navbar__link">Blog</a>
+          </li>
+          <li class="navbar__listItem">
+            <a href="#" class="navbar__link">Contact Us</a>
+          </li>
+          <li class="navbar__listItem">
+            <a href="#" class="navbar__link" id="search__link"
+              ><i class="fa-regular fa-magnifying-glass"></i
+            ></a>
+          </li>
+        </ul>
+
+        <div class="search__button" id="search__button">
+          <input type="text" placeholder="Type Your Keyword" class="search" />
+          <button type="submit">
+            <i class="fa-regular fa-magnifying-glass"></i>
+          </button>
+        </div>
+
+        <div class="navbar__contact">
+          <a href="#">+5(716) 343 676</a>
+        </div>
+
+        <div class="hamburger">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <div class="hero">
+      <div class="container">
+        <div class="hero__textContent">
+          <h4 class="hero__subheading">[ Innovative Design ]</h4>
+          <h1 class="hero__heading">
+            Smart Villa in <span class="text__color">London</span>
+          </h1>
+          <p class="hero__text">
+            Founded in 2005, Techno is specializing in providing innovative
+            website design, brand identity, and marketing.
+          </p>
+          <a href="#" class="btn__primary">
+            See Projects <i class="fa-regular fa-arrow-right-long"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Services Section -->
+    <div class="services" id="services">
+      <div class="container">
+        <div class="section__title">
+          <h5 class="section__subheading">[ Our Services ]</h5>
+          <h3 class="section__heading">Our Services</h3>
+          <h1 class="section__headingLight">SERVICES</h1>
+        </div>
+
+        <div class="services__grid">
+          <article class="service__card">
+            <img src="./img/service-1.jpeg" alt="" />
+            <div class="service__contentFront">
+              <div class="service__iconBox">
+                <i class="fa-regular fa-pen-paintbrush"></i>
+                <h2>Interior Design</h2>
+              </div>
+            </div>
+            <div class="service__contentBack">
+              <div class="service__iconBox--back">
+                <i class="fa-regular fa-pen-paintbrush"></i>
+                <p>|</p>
+                <h2>Interior Design</h2>
+                <p class="service__contentBack--text">
+                  Monotonectally thabenchmark content after adaptives rapidlly
+                  evolve multidisciplinary.
+                </p>
+                <a href="#" class="service__btn">
+                  <i class="fa-regular fa-plus"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="service__card">
+            <img src="./img/service-2.jpeg" alt="" />
+            <div class="service__contentFront">
+              <div class="service__iconBox">
+                <i class="fa-regular fa-pen-paintbrush"></i>
+                <h2>Modern Building</h2>
+              </div>
+            </div>
+            <div class="service__contentBack">
+              <div class="service__iconBox--back">
+                <i class="fa-regular fa-pen-paintbrush"></i>
+                <p>|</p>
+                <h2>Modern Building</h2>
+                <p class="service__contentBack--text">
+                  Monotonectally thabenchmark content after adaptives rapidlly
+                  evolve multidisciplinary.
+                </p>
+                <a href="#" class="service__btn">
+                  <i class="fa-regular fa-plus"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="service__card">
+            <img src="./img/service-3.jpeg" alt="" />
+            <div class="service__contentFront">
+              <div class="service__iconBox">
+                <i class="fa-regular fa-couch"></i>
+                <h2>Furniture Designs</h2>
+              </div>
+            </div>
+            <div class="service__contentBack">
+              <div class="service__iconBox--back">
+                <i class="fa-regular fa-couch"></i>
+                <p>|</p>
+                <h2>Furniture Designs</h2>
+                <p class="service__contentBack--text">
+                  Monotonectally thabenchmark content after adaptives rapidlly
+                  evolve multidisciplinary.
+                </p>
+                <a href="#" class="service__btn">
+                  <i class="fa-regular fa-plus"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <!-- About Section -->
+    <div class="about" id="about">
+      <div class="container">
+        <div class="about__img">
+          <img src="./img/about-3.png" alt="" />
+        </div>
+        <div class="about__textContent">
+          <h5 class="section__subheading">[ About Us ]</h5>
+          <h2 class="section__heading">
+            We are hands down the best Architecture and Interior Designers in
+            class
+          </h2>
+          <p class="section__text">
+            Founded in 2005, Sparch is specializing providing innovative and
+            services such as website design, brand identity and marketing
+            visualize some functional niche markets.
+          </p>
+          <ul class="about__tabs">
+            <li class="active">
+              <a href="#">Designing</a>
+            </li>
+            <li>
+              <a href="#">Approved</a>
+            </li>
+            <li>
+              <a href="#">Guaranteed</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Projects Section -->
+    <div class="team" id="team">
+      <div class="container">
+        <div class="section__title">
+          <h5 class="section__subheading">[ Our Engineers ]</h5>
+          <h3 class="section__heading">Meet the Engineers</h3>
+          <h1 class="section__headingLight">TEAM</h1>
+        </div>
+        <div class="team__grid">
+          <article class="team__card">
+            <div class="team__image">
+              <img src="https://i.pravatar.cc/300" alt="" />
+            </div>
+            <div class="team__textContent">
+              <h3 class="name">James Cameron</h3>
+              <p class="section__subheading">[ Civil Engineer ]</p>
+            </div>
+          </article>
+          <article class="team__card">
+            <div class="team__image">
+              <img src="https://i.pravatar.cc/300?img=1" alt="" />
+            </div>
+            <div class="team__textContent">
+              <h3 class="name">James Cameron</h3>
+              <p class="section__subheading">[ Civil Engineer ]</p>
+            </div>
+          </article>
+          <article class="team__card">
+            <div class="team__image">
+              <img src="https://i.pravatar.cc/300" alt="" />
+            </div>
+            <div class="team__textContent">
+              <h3 class="name">James Cameron</h3>
+              <p class="section__subheading">[ Civil Engineer ]</p>
+            </div>
+          </article>
+          <article class="team__card">
+            <div class="team__image">
+              <img src="https://i.pravatar.cc/300" alt="" />
+            </div>
+            <div class="team__textContent">
+              <h3 class="name">James Cameron</h3>
+              <p class="section__subheading">[ Civil Engineer ]</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <!-- Blog Section -->
+    <div class="blog" id="blog">
+      <div class="container">
+        <div class="section__title">
+          <h5 class="section__subheading">[ Latest Blog ]</h5>
+          <h3 class="section__heading">Techno News</h3>
+        </div>
+        <div class="blog__grid">
+          <article class="blog__card">
+            <div class="blog__image">
+              <p class="category">[ Furniture ]</p>
+              <img src="./img/blog-1-390x290.jpeg" alt="" />
+            </div>
+            <div class="blog__textContent">
+              <div class="author-date">
+                <p class="author">Techno | April 12, 2022</p>
+              </div>
+              <h4 class="blog__title">Digital Experience</h4>
+              <p class="blog__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Temporibus, unde.
+              </p>
+              <a href="#" class="blog__button"
+                >Read More <i class="fa-regular fa-chevron-right"></i
+              ></a>
+            </div>
+          </article>
+
+          <article class="blog__card">
+            <div class="blog__image">
+              <p class="category">[ Exterior ]</p>
+              <img src="./img/blog-2-390x290.jpeg" alt="" />
+            </div>
+            <div class="blog__textContent">
+              <div class="author-date">
+                <p class="author">Techno | April 12, 2022</p>
+              </div>
+              <h4 class="blog__title">Furniture Supply</h4>
+              <p class="blog__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Temporibus, unde.
+              </p>
+              <a href="#" class="blog__button"
+                >Read More <i class="fa-regular fa-chevron-right"></i
+              ></a>
+            </div>
+          </article>
+
+          <article class="blog__card">
+            <div class="blog__image">
+              <p class="category">[ Building ]</p>
+              <img src="./img/blog-3-390x290.jpeg" alt="" />
+            </div>
+            <div class="blog__textContent">
+              <div class="author-date">
+                <p class="author">Techno | April 12, 2022</p>
+              </div>
+              <h4 class="blog__title">Modern Architecture</h4>
+              <p class="blog__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Temporibus, unde.
+              </p>
+              <a href="#" class="blog__button"
+                >Read More <i class="fa-regular fa-chevron-right"></i
+              ></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="subscribe__wrapper">
+          <div class="subscribe__textContent">
+            <h3 class="subscribe__heading">Sign Up To get the Latest News</h3>
+            <p class="subscribe__text">
+              Sign up for our monthly newsletter for all the latest design
+              articles
+            </p>
+          </div>
+          <form class="subscribe__form">
+            <input type="email" placeholder="Enter Your Email" class="email" />
+            <input type="submit" value="Subscribe" class="submit__button" />
+          </form>
+        </div>
+        <div class="main__footerWrapper">
+          <div class="logo__wrapper">
+            <img src="./img/logo-transparent.png" alt="Techno" />
+            <p class="logo__text">
+              Founded in 2020, Silverlight Creative specializes in website
+              design, brand identity, and marketing solutions.
+            </p>
+            <div class="social__links">
+              <a href="#" class="social__link">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+              <a href="#" class="social__link">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+              <a href="#" class="social__link">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+          <ul class="footer__links">
+            <li><a href="#" class="footer__link">Portfolio</a></li>
+            <li><a href="#" class="footer__link">About Us</a></li>
+            <li><a href="#" class="footer__link">Latest News</a></li>
+            <li><a href="#" class="footer__link">Privacy Policy</a></li>
+          </ul>
+          <ul class="footer__links">
+            <li><a href="#" class="footer__link">Services</a></li>
+            <li><a href="#" class="footer__link">Customer Reviews</a></li>
+            <li><a href="#" class="footer__link">Our Team</a></li>
+            <li><a href="#" class="footer__link">Design</a></li>
+          </ul>
+          <div class="contact">
+            <div class="contact__link">
+              <i class="fa-regular fa-phone"></i>
+              <p>(123) 456-7890</p>
+            </div>
+            <div class="contact__link">
+              <i class="fa-regular fa-envelope"></i>
+              <p>info@silverlightcreative.com</p>
+            </div>
+            <div class="contact__link">
+              <i class="fa-regular fa-map-marker"></i>
+              <p>12 Main St. Los Angeles, CA</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://kit.fontawesome.com/99997efda2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
